@@ -1,0 +1,4 @@
+TgCrypto
+pyrogram
+requests
+bs4
