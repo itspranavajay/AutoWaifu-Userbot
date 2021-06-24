@@ -1,5 +1,8 @@
 import time
 from pyrogram import filters
+import os
+from bs4 import BeautifulSoup
+import requests
 from WaifuUserbot import Waifu
 
 @Waifu.on_message()
