@@ -1,0 +1,21 @@
+{
+    "name": "Autowaifu",
+    "descreption": "Auto Waifu",
+    "repository": "https://github.com/MoeZilla/Autowaifu-Userbot",
+    "env": {
+        "API_ID": {
+            "descreption": "my.telegram.org"
+        },
+        "API_HASH": {
+            "descreption": "my.telegram.org"
+        },
+        "SESSION": {
+            "descreption": "https://replit.com/@TeamUltroid/UltroidStringSession"
+        },
+        "RELAY": {
+            "descreption": "Default = 5s",
+            "value": "3",
+            "required": false
+        }
+    }
+}
