@@ -1,4 +1,8 @@
-@Client.on_message()
+import time
+from pyrogram import filters
+from WaifuUserbot import Waifu
+
+@Waifu.on_message()
 async def autowaifu(client, message):
     if message.photo:
 
@@ -22,6 +26,6 @@ async def autowaifu(client, message):
             alls = div.find("a")
             text = alls.text
             time.sleep(RELAY)
-            send = await Client.send_message(message.chat.id, f"/protecc {text}")
+            send = await Waifu.send_message(message.chat.id, f"/protecc {text}")
             await sleep(5)
             os.remove(dl)
