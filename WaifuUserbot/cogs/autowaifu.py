@@ -3,7 +3,7 @@ from pyrogram import filters
 import os
 from bs4 import BeautifulSoup
 import requests
-from WaifuUserbot import Waifu
+from WaifuUserbot import Waifu, REPLY
 
 @Waifu.on_message()
 async def autowaifu(client, message):
