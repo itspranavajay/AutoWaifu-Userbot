@@ -5,6 +5,8 @@ from bs4 import BeautifulSoup
 import requests
 from WaifuUserbot import Waifu, REPLY
 
+# REPLY VAR
+
 @Waifu.on_message()
 async def autowaifu(client, message):
     if message.photo:
